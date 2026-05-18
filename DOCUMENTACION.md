@@ -17,8 +17,8 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 | Versión | Tiempo (segundos) | Mejora |
 |--------|------------------|--------|
 | Original | 18.8390 | - |
-| Optimizada (sqrt + list comp) | 0.0885 | 35x |
-| Optimizada con NumPy | 0.0035 | 140x |
+| Optimizada (sqrt + list comp) | 0.0885 | 212x más rápido |
+| Optimizada con NumPy | 0.0035 | 5,382x más rápido |
 
 ## Análisis con cProfile
 - **Original:** La función `es_primo` consume el 98% del tiempo.
