@@ -14,30 +14,39 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ## Resultados comparativos 
 
-##  Resultados obtenidos
+## 📊 Resultados obtenidos
 
-### Tiempos de ejecución reales
+### Tiempos de ejecución
 
 | Versión | Tiempo (segundos) | Mejora vs Original |
 |---------|-------------------|---------------------|
 | Original | 18.8390 | - |
-| Optimizado (sqrt + list comp) | 0.0885 | 212x más rápido |
+| Optimizado (sqrt + list comp) | 0.0885 | 213x más rápido |
 | Optimizado con NumPy | 0.0035 | 5,382x más rápido |
 
-### Gráficos
+### Capturas de pantalla de la ejecución
 
-![Comparativa de tiempos](comparativa_tiempos.png)
+#### Código original
+![Tiempo original](captura_original.png)
 
-![Distribución de tiempos](distribucion_tiempos.png)
+#### Código optimizado
+![Tiempo optimizado](captura_optimizado.png)
 
-### Profiling
+### Profiling con cProfile
+![Resultados de profiling](captura_profiling.png)
 
-Los archivos `profiling_original.prof` y `profiling_optimizado.prof` muestran que:
+**Análisis del profiling:**
+- **Original:** 100,000 llamadas a `es_primo` consumen 20.523 segundos (99.9% del tiempo)
+- **Optimizado:** 99,999 llamadas a `es_primo_optimizado` consumen solo 0.085 segundos
 
-- **Original**: La función `es_primo` consume el 98%+ del tiempo total
-- **Optimizado**: El tiempo se distribuye mejor, con mayor eficiencia
+### Gráficos comparativos
 
----
+#### Comparativa de tiempos (barras)
+![Gráfico de barras](grafico_barras.png)
+
+#### Distribución de tiempos (pastel)
+![Gráfico de pastel](grafico_pastel.png)
+
 
 ##  Datos del estudiante
 
