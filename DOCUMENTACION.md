@@ -1,9 +1,13 @@
 # Documentación del Proyecto: Optimización de Código para Cálculo de Primos
 
 **Autor:** Klever Alexis Castillo
+
 **Fecha:** 17-05-2026
+
 **Carrera:** Ciencia de Datos
+
 **Semestre:** Tercero 'B'
+
 **Periodo académico:** 2026-1S
 
 ---
