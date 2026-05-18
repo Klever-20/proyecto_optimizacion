@@ -20,6 +20,7 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ## Técnicas de optimización aplicadas
 
+
 1. **Reducción del rango de búsqueda**: Se itera solo hasta la raíz cuadrada de n
 2. **Exclusión de pares**: Se saltan números pares después del 2
 3. **List comprehensions**: Reemplazan bucles for tradicionales
@@ -28,6 +29,11 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 ---
 
 ##  Resultados obtenidos
+=======
+## Resultados comparativos 
+
+## 📊 Resultados obtenidos
+
 
 ### Tiempos de ejecución
 
@@ -37,7 +43,11 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 | Optimizado (sqrt + list comp) | 0.0885 | 213x más rápido |
 | Optimizado con NumPy | 0.0035 | 5,382x más rápido |
 
+
 ### Capturas de pantalla
+=======
+### Capturas de pantalla de la ejecución
+
 
 #### Código original
 ![Tiempo original](captura_original.png)
@@ -60,6 +70,7 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 #### Distribución de tiempos (pastel)
 ![Gráfico de pastel](grafico_pastel.png)
 
+
 ---
 
 ## Conclusiones
@@ -76,4 +87,20 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 [https://github.com/Klever-20/proyecto_optimizacion](https://github.com/Klever-20/proyecto_optimizacion)
 
 ---
+
+=======
+
+##  Datos del estudiante
+
+- **Nombre:** Klever Alexis Castillo
+- **Fecha:** 17-05-2026
+- **Carrera:** Ciencia de Datos
+- **Semestre:** Tercero 'B'
+- **Periodo académico:** 2026-1S
+
+---
+
+
+## Enlace al repositorio GitHub
+https://github.com/Klever-20/proyecto_optimizacion
 
