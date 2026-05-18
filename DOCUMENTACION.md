@@ -32,7 +32,7 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ---
 
-=======
+
 ## Resultados comparativos 
 
 ##  Resultados obtenidos
@@ -48,7 +48,7 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 
 ### Capturas de pantalla
-=======
+
 ### Capturas de pantalla de la ejecución
 
 
