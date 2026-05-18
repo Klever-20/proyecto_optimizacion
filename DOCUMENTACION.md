@@ -14,7 +14,7 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ## Resultados comparativos 
 
-## 📊 Resultados obtenidos
+##  Resultados obtenidos
 
 ### Tiempos de ejecución reales
 
@@ -39,7 +39,7 @@ Los archivos `profiling_original.prof` y `profiling_optimizado.prof` muestran qu
 
 ---
 
-## 👤 Datos del estudiante
+##  Datos del estudiante
 
 - **Nombre:** Klever Alexis Castillo
 - **Fecha:** 17-05-2026
