@@ -12,23 +12,49 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 3. **List comprehensions:** Reemplazan bucles `for` tradicionales.
 4. **Uso de NumPy:** Vectorización de operaciones con arrays.
 
-## Resultados comparativos (valores de ejemplo)
+## Resultados comparativos 
 
-| Versión | Tiempo (segundos) | Mejora |
-|--------|------------------|--------|
+## 📊 Resultados obtenidos
+
+### Tiempos de ejecución reales
+
+| Versión | Tiempo (segundos) | Mejora vs Original |
+|---------|-------------------|---------------------|
 | Original | 18.8390 | - |
-| Optimizada (sqrt + list comp) | 0.0885 | 212x más rápido |
-| Optimizada con NumPy | 0.0035 | 5,382x más rápido |
+| Optimizado (sqrt + list comp) | 0.0885 | 212x más rápido |
+| Optimizado con NumPy | 0.0035 | 5,382x más rápido |
 
-## Análisis con cProfile
-- **Original:** La función `es_primo` consume el 98% del tiempo.
-- **Optimizada:** La carga se distribuye mejor, con menor tiempo en división de módulo y mayor en creación de listas.
+### Gráficos
 
-## Conclusiones
-- La optimización del rango de búsqueda produce la mayor ganancia (pasa de O(n) a O(√n)).
-- NumPy mejora aún más el rendimiento gracias a operaciones en C.
-- Se recomienda siempre perfilar el código antes y después de optimizar.
-- Buenas prácticas como PEP 8 y modularización facilitan el mantenimiento.
+![Comparativa de tiempos](comparativa_tiempos.png)
+
+![Distribución de tiempos](distribucion_tiempos.png)
+
+### Profiling
+
+Los archivos `profiling_original.prof` y `profiling_optimizado.prof` muestran que:
+
+- **Original**: La función `es_primo` consume el 98%+ del tiempo total
+- **Optimizado**: El tiempo se distribuye mejor, con mayor eficiencia
+
+---
+
+## 👤 Datos del estudiante
+
+- **Nombre:** Klever Alexis Castillo
+- **Fecha:** 17-05-2026
+- **Carrera:** Ciencia de Datos
+- **Semestre:** Tercero 'B'
+- **Periodo académico:** 2026-1S
+
+---
+
+## 🔗 Enlace al repositorio GitHub
+
+[https://github.com/Klever-20/proyecto_optimizacion](https://github.com/Klever-20/proyecto_optimizacion)
+
+---
+
 
 ## Enlace al repositorio GitHub
 https://github.com/Klever-20/proyecto_optimizacion
