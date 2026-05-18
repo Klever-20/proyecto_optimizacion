@@ -28,11 +28,10 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ---
 
-##  Resultados obtenidos
 =======
 ## Resultados comparativos 
 
-## 📊 Resultados obtenidos
+##  Resultados obtenidos
 
 
 ### Tiempos de ejecución
@@ -88,19 +87,5 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 
 ---
 
-=======
 
-##  Datos del estudiante
-
-- **Nombre:** Klever Alexis Castillo
-- **Fecha:** 17-05-2026
-- **Carrera:** Ciencia de Datos
-- **Semestre:** Tercero 'B'
-- **Periodo académico:** 2026-1S
-
----
-
-
-## Enlace al repositorio GitHub
-https://github.com/Klever-20/proyecto_optimizacion
 
