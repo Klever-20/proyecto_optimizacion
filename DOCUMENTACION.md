@@ -49,12 +49,6 @@ Los archivos `profiling_original.prof` y `profiling_optimizado.prof` muestran qu
 
 ---
 
-## 🔗 Enlace al repositorio GitHub
-
-[https://github.com/Klever-20/proyecto_optimizacion](https://github.com/Klever-20/proyecto_optimizacion)
-
----
-
 
 ## Enlace al repositorio GitHub
 https://github.com/Klever-20/proyecto_optimizacion
