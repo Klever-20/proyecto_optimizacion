@@ -33,8 +33,6 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 ---
 
 
-## Resultados comparativos 
-
 ##  Resultados obtenidos
 
 
@@ -46,8 +44,6 @@ El código original implementa un algoritmo de búsqueda de números primos entr
 | Optimizado (sqrt + list comp) | 0.0885 | 213x más rápido |
 | Optimizado con NumPy | 0.0035 | 5,382x más rápido |
 
-
-### Capturas de pantalla
 
 ### Capturas de pantalla de la ejecución
 
